@@ -46,7 +46,7 @@ async def echo(bot, update):
             await update.reply_text(
                 text="Pʟᴇᴀsᴇ Jᴏɪɴ Mʏ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ Tᴏ Usᴇ Mᴇ!\n\nDᴜᴇ ᴛᴏ Oᴠᴇʀʟᴏᴀᴅ, Oɴʟʏ Cʜᴀɴɴᴇʟ Sᴜʙsᴄʀɪʙᴇʀs Cᴀɴ Usᴇ Mᴇ!",
                 reply_markup=InlineKeyboardMarkup([
-                    [ InlineKeyboardButton(text="🤖 Jᴏɪɴ ᴍʏ ᴄʜᴀɴɴᴇʟ 🤖", url=f"https://t.me/{update_channel}")]
+                    [ InlineKeyboardButton(text="🤖 Jᴏɪɴ ᴍʏ ᴄʜᴀɴɴᴇʟ 🤖", url="https://t.me/DevAXD")]
               ])
             )
             return
