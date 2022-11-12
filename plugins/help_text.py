@@ -59,12 +59,8 @@ async def start(bot, update):
         reply_markup=InlineKeyboardMarkup(
         [
           [
-          InlineKeyboardButton('📍 CHANNEL 📍', url='https://t.me/NT_BOT_CHANNEL'),
-      ],
-      [
-          InlineKeyboardButton('🧑‍💻 DEVELOPER 🧑‍💻', url='https://t.me/LISA_FAN_LK'),
-          InlineKeyboardButton('🤖 SOURCE 🤖', url='https://github.com/LISA-KOREA/URL-UPLOADER-BOT'),
-          ]
+          InlineKeyboardButton('𝔠𝔥𝔞𝔫𝔫𝔢𝔩', url='https://t.me/DevAXD'),
+      ]
         ]
       )
     )
